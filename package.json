@@ -1,0 +1,37 @@
+{
+	"name": "easy-nn",
+	"version": "0.0.1",
+	"scripts": {
+		"test": "echo Missing test; exit 0"
+	},
+	"main": "index.coffee",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jan-rus/easy-nn.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jan-rus/easy-nn/issues"
+	},
+	"author": "Jan Rus <ing.janrus@gmail.com> (https://cz.linkedin.com/in/rusjan)",
+	"description": "easy-nn is \"easy to use\" lightweight implementation of a feed forward neural network",
+	"keywords": [
+		"neural",
+		"network",
+		"feedforward",
+		"easy",
+		"simple",
+		"machine",
+		"learning",
+		"artificial",
+		"intelligence",
+		"net"
+	],
+	"license": "BSD-2-Clause",
+	"engines": {
+		"node": "0.10.x"
+	},
+	"devDependencies": {
+	},
+	"dependencies": {
+	}
+}
