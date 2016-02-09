@@ -3,7 +3,7 @@ math = require "./math.coffee"
 class NeuralNetwork
 
 	###
-	Creates new "feedforward neural network" with given topology and learning rate
+	Creates new "feed forward neural network" with given topology and learning rate
 
 	@param {Array<Number> or String} topologyOrState use array to describe only
 		topology of the network or JSON string representation of the network
