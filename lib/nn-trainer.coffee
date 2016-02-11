@@ -99,7 +99,6 @@ class NeuralNetworkTrainer
 		
 		@epochs = 0
 		while true
-			@epochs++
 			for i in [0...tSetIn.length]
 				output = @nn.feedForward tSetIn[i]
 
@@ -116,6 +115,7 @@ class NeuralNetworkTrainer
 			@trainingAccuracy = @_validateOutputs tSetIn, tSetOut
 			
 			if @log and @epochs%@logPeriod is 0 then console.log "epoch: #{@epochs}, trainingAccuracy: #{@trainingAccuracy}"
+			@epochs++
 			break if (@trainingAccuracy >= @minAccuracy) or (@epochs >= @maxEpochs)
 
 		return @trainingAccuracy

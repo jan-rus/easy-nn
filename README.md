@@ -64,7 +64,7 @@ console.log output # prints array with 1 value
 # Network that processes 4 values on input
 network = new NeuralNetwork [4, 3, 2]
 output = network.feedForward [11, 7, 9, 5]
-console.log output # prints array with 4 values
+console.log output # prints array with 2 values
 ```
 
 Of course, responses (outputs) in this example contain nonsenses, because the networks
